@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">برنامج عبدو الملك</string>
-    <string name="buAge">Get My Age</string>
+    <string name="app_name">برنامج ايجاد العمر</string>
+    <string name="buAge">كم عمري</string>
+    <string name="xcsss">الرجاء ادخال سنة التولد لمعرفة عمرك</string>
+    <string name="xcsss1">تنبيه</string>
+    <string name="xcsss2">الرجاء التأكد من سنة الولادة</string>
+    <string name="xcsss3">اغلاق</string>
+    <string name="xcsss4">لقدأغلقت الرسالة</string>
+    <string name="xcsss5">ان عمرك هو : </string>
+    <string name="xcsss6">سنة</string>
 </resources>
