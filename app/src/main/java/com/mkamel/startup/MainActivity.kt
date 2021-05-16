@@ -7,7 +7,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-
+//الفيديو
+//https://www.youtube.com/playlist?list=PLF8OvnCBlEY2w-zdVPozupapiKzLzpyUZ
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
