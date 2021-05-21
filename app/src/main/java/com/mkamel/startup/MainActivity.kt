@@ -28,17 +28,23 @@ class MainActivity : AppCompatActivity() {
             val a = yearOfBirth.text.toString().toInt()
             val currntYear = Calendar.getInstance().get(Calendar.YEAR)
             val age = currntYear - a
-            yourAge.text = getString(R.string.xcsss5) + " " + age + " " + getString(R.string.xcsss6)
+            if (age > 0) {
+                yourAge.text =
+                    getString(R.string.xcsss5) + " " + age + " " + getString(R.string.xcsss6)
+            } else {
+                showAlertDialog(getString(R.string.xcsss8) + " " + currntYear)
+            }
+
         } else {
-            showAlertDialog()
+            showAlertDialog(getString(R.string.xcsss2))
         }
     }
 
-    private fun showAlertDialog() {
+    private fun showAlertDialog(msg: String) {
         val alertDialog: AlertDialog.Builder = AlertDialog.Builder(this@MainActivity)
         alertDialog.setTitle(R.string.xcsss1)
 
-        alertDialog.setMessage(R.string.xcsss2)
+        alertDialog.setMessage(msg)
         //alertDialog.setPositiveButton("yes") { _, _ -> Toast.makeText(this@MainActivity, "Alert dialog closed.", Toast.LENGTH_LONG).show()  }
         //alertDialog.setNegativeButton("No") { _, _ -> }
 
