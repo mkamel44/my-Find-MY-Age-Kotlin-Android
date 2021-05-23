@@ -3,11 +3,22 @@
     <string name="buAge">كم عمري</string>
     <string name="xcsss">الرجاء ادخال سنة التولد</string>
     <string name="xcsss1">تنبيه</string>
-    <string name="xcsss2">الرجاء التأكد من سنة الولادة</string>
+    <string name="xcsss2"> الرجاء التأكد من ادخال الاسم والعمر</string>
     <string name="xcsss3">اغلاق</string>
     <string name="xcsss4">لقدأغلقت الرسالة</string>
     <string name="xcsss5">ان عمرك هو : </string>
     <string name="xcsss6">سنة</string>
     <string name="xcsss7">النتيجة</string>
     <string name="xcsss8">الرجاء ادخال سنة الميلاد أقل من </string>
+    <string name="xcsss9">عرض الأعمار المدخلة</string>
+    <string name="xcsss10">ادحل اسم صاحب العمر</string>
+    <string name="xcsss11">اسم الشخص</string>
+    <string name="xcsss12">المواليد</string>
+    <string name="xcsss13">العمر</string>
+    <string name="xcsss14">رجوع</string>
+    <string name="xcsss15">الرجاء ادخال بيانات أولا</string>
+    <string name="xcsss16">تعديل</string>
+    <string name="xcsss17">حذف</string>
+    <string name="xcsss18">تعديل البيانات</string>
+    <string name="xcsss19">هل أنت متأكد من الحذف</string>
 </resources>

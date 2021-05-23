@@ -10,7 +10,7 @@
         android:id="@+id/yearOfBirth"
         android:layout_width="245dp"
         android:layout_height="52dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="116dp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/xcsss"
@@ -18,27 +18,28 @@
         android:maxLength="4"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         android:onClick="on_click"
         android:text="@string/buAge"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yourAge" />
+        app:layout_constraintTop_toBottomOf="@+id/yourAge"
+        app:layout_constraintVertical_bias="0.055" />
 
     <TextView
         android:id="@+id/yourAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="36dp"
         android:hint="@string/xcsss7"
         android:textColor="#F44336"
         android:textSize="24sp"
@@ -46,4 +47,33 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/yearOfBirth" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:onClick="on_click1"
+        android:text="@string/xcsss9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourAge" />
+
+    <EditText
+        android:id="@+id/personName"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/xcsss10"
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/yearOfBirth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

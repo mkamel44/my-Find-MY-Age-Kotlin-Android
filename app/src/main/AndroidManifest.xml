@@ -4,11 +4,12 @@
 
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
-        android:theme="@style/Theme.StartUp"
-        android:icon="@drawable/ic_launcher_foreground">
+        android:theme="@style/Theme.StartUp">
+        <activity android:name=".MainActivity2"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
